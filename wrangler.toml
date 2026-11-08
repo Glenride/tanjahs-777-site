@@ -1,0 +1,7 @@
+name = "manifestation-candles-landing"
+main = "worker/index.js"
+compatibility_date = "2025-10-27"
+
+[assets]
+binding = "ASSETS"
+directory = "."

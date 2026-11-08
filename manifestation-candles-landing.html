@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>777 Bundle - Crystal Manifestation Candles</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+            background: #ffffff;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background: #fff;
+            padding: 20px 0;
+            border-bottom: 1px solid #e8e8e8;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .logo {
+            font-size: 1.5em;
+            font-weight: 600;
+            color: #d4af37;
+            letter-spacing: 1px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 30px;
+            font-size: 0.9em;
+        }
+
+        .nav-links a {
+            color: #333;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: #d4af37;
+        }
+
+        .hero {
+            padding: 80px 20px 60px;
+            text-align: center;
+            background: linear-gradient(180deg, #fafafa 0%, #ffffff 100%);
+        }
+
+        .promo-banner {
+            background: #f5f5f5;
+            padding: 12px;
+            text-align: center;
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            color: #333;
+            font-weight: 400;
+            line-height: 1.3;
+            letter-spacing: -0.5px;
+        }
+
+        .highlight {
+            color: #d4af37;
+            font-weight: 500;
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            color: #666;
+            margin-bottom: 40px;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+            font-weight: 300;
+        }
+
+        .cta-primary {
+            display: inline-block;
+            padding: 16px 48px;
+            background: #333;
+            color: #fff;
+            text-decoration: none;
+            font-size: 1em;
+            font-weight: 500;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin: 20px 10px;
+        }
+
+        .cta-primary:hover {
+            background: #000;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        }
+
+        .cta-secondary {
+            display: inline-block;
+            padding: 16px 48px;
+            background: #fff;
+            color: #333;
+            text-decoration: none;
+            font-size: 1em;
+            font-weight: 500;
+            border: 2px solid #333;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin: 20px 10px;
+        }
+
+        .cta-secondary:hover {
+            background: #333;
+            color: #fff;
+        }
+
+        .product-showcase {
+            padding: 80px 20px;
+            background: #fff;
+        }
+
+        .bundle-header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .bundle-header h2 {
+            font-size: 2.5em;
+            color: #333;
+            font-weight: 400;
+            margin-bottom: 15px;
+        }
+
+        .angel-number {
+            font-size: 3em;
+            color: #d4af37;
+            font-weight: 300;
+            letter-spacing: 8px;
+            margin-bottom: 20px;
+        }
+
+        .bundle-visual {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-bottom: 60px;
+            flex-wrap: wrap;
+        }
+
+        .candle {
+            width: 280px;
+            background: #fafafa;
+            border: 1px solid #e8e8e8;
+            border-radius: 8px;
+            padding: 40px 30px;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .candle:hover {
+            box-shadow: 0 12px 30px rgba(0,0,0,0.1);
+            transform: translateY(-5px);
+        }
+
+        .crystal-icon {
+            font-size: 4em;
+            margin-bottom: 20px;
+        }
+
+        .candle h3 {
+            font-size: 1.2em;
+            color: #333;
+            margin-bottom: 10px;
+            font-weight: 500;
+        }
+
+        .candle p {
+            color: #666;
+            font-size: 0.95em;
+        }
+
+        .features {
+            background: #fafafa;
+            padding: 80px 20px;
+        }
+
+        .features-header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .features-header h2 {
+            font-size: 2.5em;
+            color: #333;
+            font-weight: 400;
+            margin-bottom: 15px;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 40px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .feature-card {
+            background: #fff;
+            padding: 40px 30px;
+            border-radius: 8px;
+            text-align: center;
+            border: 1px solid #e8e8e8;
+            transition: all 0.3s ease;
+        }
+
+        .feature-card:hover {
+            box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+        }
+
+        .feature-icon {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .feature-title {
+            font-size: 1.3em;
+            color: #333;
+            margin-bottom: 15px;
+            font-weight: 500;
+        }
+
+        .feature-card p {
+            color: #666;
+            line-height: 1.7;
+        }
+
+        .mission-section {
+            padding: 100px 20px;
+            text-align: center;
+            background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+            border-top: 1px solid #e8e8e8;
+            border-bottom: 1px solid #e8e8e8;
+        }
+
+        .mission-section h2 {
+            font-size: 2.5em;
+            color: #333;
+            margin-bottom: 25px;
+            font-weight: 400;
+        }
+
+        .flag-icon {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .mission-text {
+            font-size: 1.2em;
+            max-width: 700px;
+            margin: 0 auto 40px;
+            line-height: 1.8;
+            color: #555;
+            font-weight: 300;
+        }
+
+        .benefits {
+            background: #fff;
+            padding: 80px 20px;
+        }
+
+        .benefits h2 {
+            text-align: center;
+            font-size: 2.5em;
+            color: #333;
+            margin-bottom: 60px;
+            font-weight: 400;
+        }
+
+        .benefit-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .benefit-item {
+            padding: 30px 25px;
+            background: #fafafa;
+            border-left: 3px solid #d4af37;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+
+        .benefit-item:hover {
+            background: #f5f5f5;
+            transform: translateX(5px);
+        }
+
+        .benefit-item h3 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+            font-weight: 500;
+        }
+
+        .benefit-item p {
+            color: #666;
+            font-size: 0.95em;
+        }
+
+        footer {
+            text-align: center;
+            padding: 80px 20px 60px;
+            background: #fafafa;
+            border-top: 1px solid #e8e8e8;
+        }
+
+        .final-cta h2 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 2.5em;
+            font-weight: 400;
+        }
+
+        .final-cta p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            color: #666;
+        }
+
+        .footer-main {
+            background: #f5f5f5;
+            padding: 60px 20px 30px;
+            border-top: 1px solid #e8e8e8;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 40px;
+            margin-bottom: 50px;
+        }
+
+        .footer-column h4 {
+            color: #333;
+            font-size: 1.1em;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        .footer-column ul {
+            list-style: none;
+        }
+
+        .footer-column ul li {
+            margin-bottom: 12px;
+        }
+
+        .footer-column ul li a {
+            color: #666;
+            text-decoration: none;
+            font-size: 0.95em;
+            transition: color 0.3s;
+        }
+
+        .footer-column ul li a:hover {
+            color: #d4af37;
+        }
+
+        .footer-bottom {
+            padding-top: 30px;
+            border-top: 1px solid #e0e0e0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .footer-bottom p {
+            color: #999;
+            font-size: 0.9em;
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 20px;
+        }
+
+        .footer-links a {
+            color: #999;
+            text-decoration: none;
+            font-size: 0.9em;
+            transition: color 0.3s;
+        }
+
+        .footer-links a:hover {
+            color: #333;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.2em;
+            }
+
+            .subtitle {
+                font-size: 1.1em;
+            }
+
+            .nav-links {
+                display: none;
+            }
+
+            .bundle-visual {
+                gap: 20px;
+            }
+
+            .candle {
+                width: 100%;
+                max-width: 300px;
+            }
+
+            .cta-primary, .cta-secondary {
+                display: block;
+                margin: 10px auto;
+            }
+
+            .footer-bottom {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .footer-links {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="promo-banner">
+        ✨ Holiday Special: Support Disabled Veterans with Every Purchase
+    </div>
+
+    <header>
+        <div class="header-content">
+            <div class="logo">DIVINE LIGHT</div>
+            <nav class="nav-links">
+                <a href="#shop">Shop</a>
+                <a href="#about">Our Mission</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Manifest Your Dreams & <span class="highlight">Support Our Heroes</span></h1>
+            <p class="subtitle">Elevate their ritual with the Triple-Blessing 777 Bundle—three hand-poured manifestation candles infused with genuine crystals and charged with positive intention.</p>
+            <a href="https://calendar.app.google/qcEa64i2kYfKjcbV9" class="cta-primary">Shop the 777 Bundle</a>
+            <a href="#learn" class="cta-secondary">Learn More</a>
+        </div>
+    </section>
+
+    <section class="product-showcase" id="shop">
+        <div class="container">
+            <div class="bundle-header">
+                <div class="angel-number">7 7 7</div>
+                <h2>The Triple-Blessing Bundle</h2>
+                <p style="color: #666; font-size: 1.1em;">Intuition • Good Fortune • Inner Wisdom</p>
+            </div>
+            <div class="bundle-visual">
+                <div class="candle">
+                    <div class="crystal-icon">💎</div>
+                    <h3>Intention</h3>
+                    <p>Crystal-infused candle for setting powerful intentions and manifesting your desires</p>
+                </div>
+                <div class="candle">
+                    <div class="crystal-icon">🔮</div>
+                    <h3>Abundance</h3>
+                    <p>Attract prosperity and good fortune with this crystal-charged manifestation candle</p>
+                </div>
+                <div class="candle">
+                    <div class="crystal-icon">✨</div>
+                    <h3>Wisdom</h3>
+                    <p>Connect with your inner guidance and spiritual awakening through sacred energy</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features" id="learn">
+        <div class="features-header">
+            <h2>Why Choose the 777 Bundle?</h2>
+            <p style="color: #666; font-size: 1.1em;">More than candles—a complete manifestation experience</p>
+        </div>
+        <div class="container">
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🕯️</div>
+                    <h3 class="feature-title">Spiritual Manifestation</h3>
+                    <p>More than just a scent, it's a powerful tool for setting intentions, attracting abundance, and focusing energy on what truly matters.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💎</div>
+                    <h3 class="feature-title">Genuine Crystals</h3>
+                    <p>Each candle contains real crystals that provide a beautiful anchor for practice. The crystals continue to work long after the wax is gone.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">✨</div>
+                    <h3 class="feature-title">Divine Number 777</h3>
+                    <p>A curated collection that harnesses the divine energy of Angel Number 777—Intuition, Good Fortune, and Inner Wisdom.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎁</div>
+                    <h3 class="feature-title">Perfect Gift</h3>
+                    <p>The ultimate thoughtful gift for anyone who values meaning, magic, and positive energy. Give an intentional experience this holiday.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mission-section" id="about">
+        <div class="container">
+            <div class="flag-icon">🇺🇸</div>
+            <h2>Burn with Purpose: A Gift That Gives Back</h2>
+            <p class="mission-text">Every 777 Bundle purchased directly supports disabled veterans. You aren't just buying a candle—you're igniting intention and helping a hero. Your purchase makes a real-world difference this holiday season.</p>
+            <a href="https://calendar.app.google/qcEa64i2kYfKjcbV9" class="cta-primary">Make an Impact Today</a>
+        </div>
+    </section>
+
+    <section class="benefits">
+        <div class="container">
+            <h2>What Makes Us Special</h2>
+            <div class="benefit-grid">
+                <div class="benefit-item">
+                    <h3>Hand-Poured with Love</h3>
+                    <p>Each candle is crafted with care and positive intention</p>
+                </div>
+                <div class="benefit-item">
+                    <h3>Genuine Crystals</h3>
+                    <p>Real crystals that continue working after burning</p>
+                </div>
+                <div class="benefit-item">
+                    <h3>Sacred Number 777</h3>
+                    <p>Harness divine guidance and spiritual awakening</p>
+                </div>
+                <div class="benefit-item">
+                    <h3>Support Veterans</h3>
+                    <p>Your purchase directly helps disabled veterans</p>
+                </div>
+                <div class="benefit-item">
+                    <h3>Unique Gift</h3>
+                    <p>Perfect for those who value intention and meaning</p>
+                </div>
+                <div class="benefit-item">
+                    <h3>Premium Quality</h3>
+                    <p>Long-lasting burn with beautiful fragrance</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="order">
+        <div class="container">
+            <div class="final-cta">
+                <h2>Ready to Manifest Magic?</h2>
+                <p>Give the gift of intention and support our heroes</p>
+                <a href="https://calendar.app.google/qcEa64i2kYfKjcbV9" class="cta-primary">Order Your 777 Bundle Now</a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="footer-main">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h4>Shop</h4>
+                    <ul>
+                        <li><a href="#">777 Bundle</a></li>
+                        <li><a href="#">Individual Candles</a></li>
+                        <li><a href="#">Gift Sets</a></li>
+                        <li><a href="#">Crystal Collections</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Customer Care</h4>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Shipping & Returns</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Track Order</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>About Us</h4>
+                    <ul>
+                        <li><a href="#">Our Mission</a></li>
+                        <li><a href="#">Supporting Veterans</a></li>
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Sustainability</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Pinterest</a></li>
+                        <li><a href="#">Newsletter</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Divine Light Candles. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Accessibility</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
